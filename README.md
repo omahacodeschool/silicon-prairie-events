@@ -29,6 +29,32 @@ Or install it yourself as:
 
 This gem is very similar to many other data scraping gems.
 
+Each event will be formatted as a standard ruby object.
+```ruby
+=> #<SiliconPrairieEvent::Event:0x007fd889c9dce0
+   @bearing=nil,
+   @distance=nil,
+   @event_address=" 1201 INFINITY CT",
+   @event_author="Firespring",
+   @event_date="2014-10-17T06:00:00-05:00",
+   @event_description="",
+   @event_end="2014-10-19T08:30:00-05:00",
+   @event_name="Hack Lincoln",
+   @event_origin="Silicon_Prairie_News",
+   @event_state="NE",
+   @event_url="http://siliconprairienews.com/events/hack-lincoln/",
+   @event_zip_code="68512",
+   @id=106,
+   @latitude=40.7316771,
+   @longitude=-96.7036615>
+   
+   These objects can be accessed as so.
+   
+   first_event = SiliconPrarieEvent::Event.all_events[0]
+   first_event.event_address
+   => " 1201 INFINITY CT"
+```
+
 Below are the methods you can run to get filtered collections of events.
 ```ruby
 SiliconPrairieEvent::Event.all_events

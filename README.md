@@ -2,7 +2,7 @@
 Event Scraper collecting information from several calendars in the Silicon Prairie.
 
 The gem utilizes an api which is located at:
-https://event-api.herokuapp.com/all_events
+https://event-api.herokuapp.com/api/v1/all_events
 
 Source code for api:
 https://github.com/omahacodeschool/spn-events-api

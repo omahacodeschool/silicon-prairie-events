@@ -25,7 +25,7 @@ module SiliconPrairieEvent
     def self.all_events
       all_events = []
       response = HTTParty.get("http://event-api.herokuapp.com/api/v1/all_events")
-      binding.pry
+      
       response.each do |hash|
         all_events << Event.new(hash)
       end

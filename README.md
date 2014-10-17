@@ -48,7 +48,7 @@ Each event will be formatted as a standard ruby object.
    @latitude=40.7316771,
    @longitude=-96.7036615>
 ```
-   'These objects can be accessed as so.'
+   These objects can be accessed as so.
 ```ruby
    first_event = SiliconPrarieEvent::Event.all_events[0]
    first_event.event_address

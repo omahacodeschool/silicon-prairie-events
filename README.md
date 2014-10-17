@@ -6,6 +6,18 @@ To retrieve the collection of all events enter:
 ```ruby
 SiliconPrairieEvent::Event.all_events
 ```
+Similiarly calling any of the methods listed below, will return results according to the name of the method.
+```ruby
+SiliconPrairieEvent::Event.lincoln_events
+SiliconPrairieEvent::Event.tech_omaha_events
+SiliconPrairieEvent::Event.spn_events
+SiliconPrairieEvent::Event.events_today
+SiliconPrairieEvent::Event.rest_of_week
+SiliconPrairieEvent::Event.events_all_week
+SiliconPrairieEvent::Event.events_this_month
+SiliconPrairieEvent::Event.events_by_month(month) - month is a String number from 01 - 12.
+SiliconPrairieEvent::Event.events_near(range) - range is the amount of miles in a radius around your location.
+```
 ## Installation
 
 Add this line to your application's Gemfile:

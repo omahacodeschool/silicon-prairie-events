@@ -36,8 +36,17 @@ SiliconPrairieEvent::Event.all_events
 Similiarly calling any of the methods listed below, will return results according to the name of the method.
 ```ruby
 SiliconPrairieEvent::Event.lincoln_events
+```
+Returns an array of events from the Startup Lincoln Calendar.
+```ruby
 SiliconPrairieEvent::Event.tech_omaha_events
+```
+Returns an array of events from the Tech Omaha Calendar.
+```ruby
 SiliconPrairieEvent::Event.spn_events
+```
+Returns an Array of events form the Silicon Prairie News Calendar.
+```ruby
 SiliconPrairieEvent::Event.events_today
 SiliconPrairieEvent::Event.rest_of_week
 SiliconPrairieEvent::Event.events_all_week

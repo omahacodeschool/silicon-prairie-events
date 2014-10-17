@@ -1,7 +1,7 @@
 # SiliconPrairieEvent
 Event Scraper collecting information from several calendars in the Silicon Prairie.
 
-[![Gem Version](https://badge.fury.io/rb/silicon_prairie_event.svg)](http://badge.fury.io/rb/silicon_prairie_event)
+[![Gem Version](https://badge.fury.io/rb/silicon_prairie_events.svg)](http://badge.fury.io/rb/silicon_prairie_events)
 
 The gem utilizes an api which is located at:
 https://event-api.herokuapp.com/api/v1/all_events

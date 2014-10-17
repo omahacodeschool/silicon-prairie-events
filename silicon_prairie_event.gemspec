@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'silicon_prairie_event/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "silicon_prairie_event"
+  spec.name          = "silicon_prairie_events"
   spec.version       = SiliconPrairieEvent::VERSION
   spec.authors       = ["“Kyle Schmit and Matt Taylor"]
   spec.email         = ["kschmit90@gmail.com"]

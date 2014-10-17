@@ -48,7 +48,7 @@ SiliconPrairieEvent::Event.events_near(range) - range is an Integer num, 5 for f
 ```
 ## Contributing
 
-1. Fork it ( https://github.com/[my-github-username]/silicon_prairie_event/fork )
+1. Fork it ( https://github.com/omahacodeschool/silicon_prairie_event/fork )
 2. Create your feature branch (`git checkout -b my-new-feature`)
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)

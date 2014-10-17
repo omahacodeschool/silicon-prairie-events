@@ -34,6 +34,7 @@ SiliconPrairieEvent::Event.events_today
 SiliconPrairieEvent::Event.rest_of_week
 SiliconPrairieEvent::Event.events_all_week
 SiliconPrairieEvent::Event.events_this_month
+SiliconPrairieEvent::Event.past_events
 SiliconPrairieEvent::Event.events_by_month(month) - month is a String '01', '02', '11, '12'.
 SiliconPrairieEvent::Event.events_near(range) - range is an Integer num, 5 for five miles.
 ```

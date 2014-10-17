@@ -121,5 +121,15 @@ module SiliconPrairieEvent
       end
       events_this_month
     end
+    
+    def self.past_events
+      past_events = []
+      response = HTTParty.get("http://event-api.herokuapp.com/api/v1/past_events")
+      
+      response.each do |hash|
+        past_events << Event.new(hash)
+      end
+      past_events
+    end
   end
 end

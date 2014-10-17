@@ -1,6 +1,8 @@
 # SiliconPrairieEvent
 Event Scraper collecting information from several calendars in the Silicon Prairie.
 
+(https://github.com/omahacodeschool/spn-events-api)
+
 ## Installation
 
 Add this line to your application's Gemfile:

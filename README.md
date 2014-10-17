@@ -69,15 +69,15 @@ Returns an Array of events from the past
 ```ruby
 SiliconPrairieEvent::Event.events_by_month(month)
 SiliconPrairieEvent::Event.events_by_month('01')
-=> Array of months for January
+=> 'Array of months for January'
 SiliconPrairieEvent::Event.events_by_month('12')
-=> Array of months for December
+=> 'Array of months for December'
 ```
 Returns an Array of events from all calendars by the given month.
 ```ruby
 SiliconPrairieEvent::Event.events_near(range)
 SiliconPrairieEvent::Event.events_near(5)
-=> Array of events within 5 miles
+=> 'Array of events within 5 miles'
 ```
 Returns an Array of events from all calendars for the given range of miles.
 

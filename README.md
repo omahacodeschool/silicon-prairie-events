@@ -1,7 +1,11 @@
 # SiliconPrairieEvent
 
-TODO: Write a gem description
+This gem is very similar to many other data scraping gems.
 
+To retrieve the collection of all events enter:
+```ruby
+SiliconPrairieEvent::Event.all_events
+```
 ## Installation
 
 Add this line to your application's Gemfile:

@@ -94,6 +94,9 @@ SiliconPrairieEvent::Event.past_events
 Returns an Array of events from the past
 ```ruby
 SiliconPrairieEvent::Event.events_by_month(month)
+```
+In this instance month should be a string in the format of '01', '02', '11'.
+```ruby
 SiliconPrairieEvent::Event.events_by_month('01')
 => 'Array of months for January'
 SiliconPrairieEvent::Event.events_by_month('12')
@@ -102,6 +105,9 @@ SiliconPrairieEvent::Event.events_by_month('12')
 Returns an Array of events from all calendars by the given month.
 ```ruby
 SiliconPrairieEvent::Event.events_near(range)
+```
+In this instance range should be an integer number.
+```ruby
 SiliconPrairieEvent::Event.events_near(5)
 => 'Array of events within 5 miles'
 ```

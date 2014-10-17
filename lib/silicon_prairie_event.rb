@@ -31,5 +31,45 @@ module SiliconPrairieEvent
       end
       all_events
     end
+    
+    def self.spn_events
+      spn_events = []
+      response = HTTParty.get("http://event-api.herokuapp.com/api/v1/spn_events")
+      
+      response.each do |hash|
+        spn_events << Event.new(hash)
+      end
+      spn_events
+    end
+    
+    def self.tech_omaha_events
+      tech_omaha_events = []
+      response = HTTParty.get("http://event-api.herokuapp.com/api/v1/tech_omaha_events")
+      
+      response.each do |hash|
+        tech_omaha_events << Event.new(hash)
+      end
+      tech_omaha_events
+    end
+    
+    def self.events_today
+      todays_events = []
+      response = HTTParty.get("http://event-api.herokuapp.com/api/v1/events_today")
+      
+      response.each do |hash|
+        todays_events << Event.new(hash)
+      end
+      todays_events
+    end
+    
+    def self.events_this_month
+      events_this_month = []
+      response = HTTParty.get("http://event-api.herokuapp.com/api/v1/events_this_month/")
+      
+      response.each do |hash|
+        events_this_month << Event.new(hash)
+      end
+      events_this_month
+    end
   end
 end

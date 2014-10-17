@@ -6,11 +6,11 @@ require 'silicon_prairie_event/version'
 Gem::Specification.new do |spec|
   spec.name          = "silicon_prairie_event"
   spec.version       = SiliconPrairieEvent::VERSION
-  spec.authors       = ["“Kyle Schmit && Matt Taylor"]
+  spec.authors       = ["“Kyle Schmit and Matt Taylor"]
   spec.email         = ["kschmit90@gmail.com"]
   spec.summary       = %q{Silicon Prairie Event Scraper}
-  spec.description   = %q{Event scraper which scrapes Tech Omaha Calendar, Startup Lincoln Calendar and Silicon Prairie News Calendar for events.}
-  spec.homepage      = ""
+  spec.description   = %q{Event scraper which collects information from several calendars in the Silicon Prairie.}
+  spec.homepage      = "https://github.com/omahacodeschool/silicon-prairie-events"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")

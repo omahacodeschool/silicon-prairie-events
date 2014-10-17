@@ -1,4 +1,23 @@
 # SiliconPrairieEvent
+Event Scraper collecting information from several calendars in the Silicon Prairie.
+
+## Installation
+
+Add this line to your application's Gemfile:
+
+```ruby
+gem 'silicon_prairie_event'
+```
+
+And then execute:
+
+    $ bundle
+
+Or install it yourself as:
+
+    $ gem install silicon_prairie_event
+
+## Usage
 
 This gem is very similar to many other data scraping gems.
 
@@ -18,26 +37,6 @@ SiliconPrairieEvent::Event.events_this_month
 SiliconPrairieEvent::Event.events_by_month(month) - month is a String '01', '02', '11, '12'.
 SiliconPrairieEvent::Event.events_near(range) - range is an Integer num, 5 for five miles.
 ```
-## Installation
-
-Add this line to your application's Gemfile:
-
-```ruby
-gem 'silicon_prairie_event'
-```
-
-And then execute:
-
-    $ bundle
-
-Or install it yourself as:
-
-    $ gem install silicon_prairie_event
-
-## Usage
-
-TODO: Write usage instructions here
-
 ## Contributing
 
 1. Fork it ( https://github.com/[my-github-username]/silicon_prairie_event/fork )
